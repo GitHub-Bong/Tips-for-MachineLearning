@@ -16,7 +16,7 @@
 
 ex) 양성(Positive)과 음성(Negative)을 구분하는 이진 분류
 
-![image-20210324220911400](D:\bong\Tips-for-MachineLearning\images\confusion-matrix-1)
+<img src = "/images/confusion-matrix-1.png" width = "200px">
 
 각 __열__은 __예측값__        /       각 __행__은 __실제값__
 
