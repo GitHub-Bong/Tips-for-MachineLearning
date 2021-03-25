@@ -8,11 +8,7 @@
 
 __1) 단순 선형 회귀 분석 (Simple Linear Regression Analysis)__  
 
-
-$$
-y = {Wx + b}
-$$
-  
+![equation](https://latex.codecogs.com/svg.latex?y%20=%20Wx%20+b)
 
 W : 가중치(weight)  
 
@@ -24,20 +20,18 @@ b : 편향(bias)
 
 __2) 다중 선형 회귀 분석 (Multiple Linear Regression Analysis)__  
 
+![equation](https://latex.codecogs.com/svg.latex?y%20=%20{W_1x_1%20+%20W_2x_2%20+%20...%20W_nx_n%20+%20b})  
 
-$$
-y = {W_1x_1 + W_2x_2 + ... W_nx_n + b}  
-$$
-  
+
 
 y is still one  
 
 Not one x, but several x
 
 
-$$
-H(x) = {Wx + b}
-$$
+
+![equation](https://latex.codecogs.com/svg.latex?H(x)%20=%20{Wx%20+%20b})
+
   
 
 __H__ means Hypothesis
