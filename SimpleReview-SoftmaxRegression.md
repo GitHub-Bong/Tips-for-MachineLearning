@@ -38,7 +38,7 @@ Before put in to Softmax function, __dimension of vector should the number of cl
 
 ![image](https://wikidocs.net/images/page/35476/softmaxbetween1and2.PNG)
 
-__How to get error? __     
+__How to get error?__     
 
 ![image](https://wikidocs.net/images/page/35476/softmax2_final.PNG)
 
@@ -94,7 +94,13 @@ All Euclidean Distances are same
 
 #### Softmax Regression uses Cross Entropy function for cost function     
 
+​     
+
+
+
 #### To minimize ![equation](https://latex.codecogs.com/gif.latex?-%5Csum_%7Bj%3D1%7D%5E%7Bk%7Dy_%7Bj%7D%5C%20log%28p_%7Bj%7D%29) is important!      
+
+<br/>
 
 
 
@@ -102,11 +108,11 @@ All Euclidean Distances are same
 
 k : Number of classes    
 
-y__j__ : __j__th index of vector which encoded y by One-Hot Encoding     
+y __j__ : __j__ th index of vector which encoded y by One-Hot Encoding     
 
-p__j__ : Probability which sample data is __j__th class     
+p __j__ : Probability which sample data is __j__ th class     
 
-If __4__th index is 1 in y vector  (y = [0 0 0 1]),   __4__is the case when we predict correctly     
+If __4__ th index is 1 in y vector  (y = [0 0 0 1]),   __4__ is the case when we predict correctly     
 
 Then, -1log(1) = 0    ->   Cross Entropy function is 0  
 
@@ -114,7 +120,11 @@ Then, -1log(1) = 0    ->   Cross Entropy function is 0
 
 __It looks different from Cross Entropy function we learned in Logistic Regression__     
 
-__But! Those are essentially same! __     
+__But! Those are essentially same!__       
+
+​    
+
+
 
 ![image](https://latex.codecogs.com/gif.latex?cost%28W%29%20%3D%20-%28y%5C%20logH%28X%29%20&plus;%20%281-y%29%5C%20log%281-H%28X%29%29%29)
 
@@ -128,7 +138,9 @@ It is ![image](https://latex.codecogs.com/gif.latex?-%28%5Csum_%7Bi%3D1%7D%5E%7B
 
 In Softmax Regression, k is not fixed so change 2 to k       
 
-We get ![image](https://latex.codecogs.com/gif.latex?-%28%5Csum_%7Bi%3D1%7D%5E%7Bk%7Dy_%7Bi%7D%5C%20log%5C%20p_%7Bi%7D%29) which is eventually same.      
+We get ![image](https://latex.codecogs.com/gif.latex?-%28%5Csum_%7Bi%3D1%7D%5E%7Bk%7Dy_%7Bi%7D%5C%20log%5C%20p_%7Bi%7D%29) which is eventually same. 
+
+<br/>     
 
 We can also do reverse!       
 
@@ -138,5 +150,5 @@ __If we assume k is 2, cost function in Softmax Regression is same with cost fun
 
 <br/>
 
-![image](https://latex.codecogs.com/gif.latex?cost%28W%29%20%3D%20-%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%5Csum_%7Bj%3D1%7D%5E%7Bk%7Dy_%7Bj%7D%5E%7B%28i%29%7D%5C%20log%28p_%7Bj%7D%5E%7B%28i%29%7D%29%20%3D%20-%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%5By%5E%7B%28i%29%7Dlog%28p%5E%7B%28i%29%7D%29%20&plus;%20%281-y%5E%7B%28i%29%7D%29log%281-p%5E%7B%28i%29%7D%29%5D)
+![image](https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Ctiny%20cost%28W%29%20%3D%20-%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%5Csum_%7Bj%3D1%7D%5E%7Bk%7Dy_%7Bj%7D%5E%7B%28i%29%7D%5C%20log%28p_%7Bj%7D%5E%7B%28i%29%7D%29%20%3D%20-%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%5By%5E%7B%28i%29%7Dlog%28p%5E%7B%28i%29%7D%29%20&plus;%20%281-y%5E%7B%28i%29%7D%29log%281-p%5E%7B%28i%29%7D%29%5D)
 
