@@ -146,7 +146,7 @@ We can also do reverse!
 
 Substitute __k__ to __2__ , __y1 , y2__ to __y, 1-y__ , __p1, p2__ to __H(X), 1 - H(X)__     
 
-__If we assume k is 2, cost function in Softmax Regression is same with cost functio in Logistic Regression!__     
+__If we assume k is 2, cost function in Softmax Regression is same with cost function in Logistic Regression!__     
 
 <br/>
 
